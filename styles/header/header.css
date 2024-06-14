@@ -9,6 +9,10 @@
   justify-content: space-between;
   align-items: center;
 }
+.logo {
+  max-width: 200px;
+  margin-top: 18px;
+}
 .navigation-bar ul {
   display: flex;
   color: var(--cor-2);
@@ -22,7 +26,7 @@
 }
 .c {
   font-size: 2.5rem;
-  color: var(--cor-3);
+  color: var(--cor-2);
 }
 
 .ativo {
