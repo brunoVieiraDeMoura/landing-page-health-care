@@ -6,7 +6,7 @@ input[type="email"] {
   border: 3px solid var(--cor-p1);
   font: var(--font-ph);
   border-radius: 0px 4px 4px 0px;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.4), 0 8px 20px 0 rgba(0, 0, 0, 0.1);
 }
 input[type="email"]::placeholder {
   color: rgba(168, 168, 168, 0.781);
@@ -31,11 +31,11 @@ input[type="email"]:focus::placeholder {
 }
 
 .btn-contact {
-  width: 144px;
+  width: 184px;
   background: linear-gradient(135deg, var(--cor-p0) 80%, var(--cor-p1) 100%);
-  border: 2px solid var(--cor-p0);
+  border: 2px solid var(--cor-3);
   box-shadow: 2px;
-  color: var(--cor-1);
+  color: var(--cor-2);
   border-radius: 2px;
   text-align: center;
   text-decoration: none;
@@ -45,7 +45,9 @@ input[type="email"]:focus::placeholder {
   font-size: 16px;
   transition-duration: 1s;
   max-height: 100%;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 17px 30px 0 rgba(0, 0, 0, 0.1);
 }
 
 .btn-contact:hover {
@@ -61,16 +63,17 @@ input[type="email"]:focus::placeholder {
   background-color: transparent;
   border: none;
   border: 2px solid var(--cor-p1);
-  color: var(--cor-p1);
+  color: var(--cor-3);
   border-radius: 2px 0px 0px 2px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   padding: 8px 4px;
+  font-weight: bold;
   transition-duration: 0.5s;
   cursor: pointer;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.4), 0 8px 20px 0 rgba(0, 0, 0, 0.1);
 }
 .btn-email:hover {
   background: linear-gradient(135deg, var(--cor-p0) 80%, var(--cor-p1) 100%);
@@ -99,6 +102,9 @@ input[type="email"]:focus::placeholder {
 /* DESKTOP E NOTEBOOK + MODERNO */
 
 @media screen and (min-width: 1281px) and (max-width: 1441px) {
+  input[type="email"] {
+    width: 210px;
+  }
 }
 
 /* DESKTOP PADRÃO */
