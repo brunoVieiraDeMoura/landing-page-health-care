@@ -32,7 +32,7 @@
 /* CONTAINER SEGUNDA DIV */
 .get-data {
   display: flex;
-  background: pink;
+  /* background: pink; */
   gap: 0px 24px;
 }
 
