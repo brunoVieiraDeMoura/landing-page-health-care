@@ -10,7 +10,7 @@
   align-items: center;
 }
 .logo {
-  max-width: 200px;
+  max-width: 280px;
   margin-top: 18px;
 }
 .navigation-bar ul {
@@ -65,10 +65,18 @@
 
 /* MOBILE PEQUENOS(ANTIGOS)*/
 @media screen and (min-width: 200px) and (max-width: 411px) {
+  .logo {
+    max-width: 200px;
+    margin-top: 10px;
+  }
 }
 
 /* TABLET E CELULAR LANDINGSCAPE */
 @media screen and (max-height: 500px) and (max-width: 990px) and (orientation: landscape) {
+  .logo {
+    max-width: 200px;
+    margin-top: 18px;
+  }
 }
 
 /* AIRPAD */

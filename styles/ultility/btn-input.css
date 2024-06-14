@@ -1,11 +1,10 @@
 input[type="email"] {
-  max-height: 100%;
+  min-width: 55%;
   width: 100%;
-  width: 250px;
   background: transparent;
   border: 3px solid var(--cor-p1);
   font: var(--font-ph);
-  border-radius: 0px 4px 4px 0px;
+  border-radius: 0px 14px 14px 0px;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.4), 0 8px 20px 0 rgba(0, 0, 0, 0.1);
 }
 input[type="email"]::placeholder {
@@ -32,10 +31,10 @@ input[type="email"]:focus::placeholder {
 
 .btn-contact {
   width: 184px;
-  background: linear-gradient(135deg, var(--cor-p0) 80%, var(--cor-p1) 100%);
-  border: 2px solid var(--cor-3);
+  background: linear-gradient(135deg, var(--cor-p0) 0%, var(--cor-p1) 100%);
+  border: 2px solid var(--cor-p0);
   box-shadow: 2px;
-  color: var(--cor-2);
+  color: var(--cor-3);
   border-radius: 2px;
   text-align: center;
   text-decoration: none;
@@ -59,7 +58,7 @@ input[type="email"]:focus::placeholder {
 }
 
 .btn-email {
-  width: 144px;
+  min-width: 144px;
   background-color: transparent;
   border: none;
   border: 2px solid var(--cor-p1);
@@ -76,9 +75,9 @@ input[type="email"]:focus::placeholder {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.4), 0 8px 20px 0 rgba(0, 0, 0, 0.1);
 }
 .btn-email:hover {
-  background: linear-gradient(135deg, var(--cor-p0) 80%, var(--cor-p1) 100%);
+  background: linear-gradient(135deg, var(--cor-p0) 0%, var(--cor-p1) 100%);
   border: 2px solid var(--cor-p1);
-  color: var(--cor-1);
+  color: var(--cor-3);
 }
 
 .btn-div1 {
@@ -103,7 +102,7 @@ input[type="email"]:focus::placeholder {
 
 @media screen and (min-width: 1281px) and (max-width: 1441px) {
   input[type="email"] {
-    width: 210px;
+    width: 100%;
   }
 }
 
@@ -134,9 +133,6 @@ input[type="email"]:focus::placeholder {
   }
   .btn-div2 {
     display: none;
-  }
-  input[type="email"] {
-    width: 100%;
   }
 }
 /* MOBILE PEQUENOS(ANTIGOS)*/

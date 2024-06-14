@@ -8,6 +8,7 @@
   justify-content: center;
   /* background: rgba(31, 202, 31, 0.4); */
 }
+
 .grid-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -31,14 +32,15 @@
 /* CONTAINER SEGUNDA DIV */
 .get-data {
   display: flex;
-  /* background: pink; */
-  flex-wrap: wrap;
+  background: pink;
   gap: 0px 24px;
 }
 
 /* BOTÃO E INPUT CONTAINER */
 .email-data {
   display: flex;
+  /* flex-wrap: wrap; */
+  width: 100%;
 }
 
 /* ON-OFF TEXTOS PARA MIDIAQUERY */
@@ -114,6 +116,9 @@
   .email-data {
     margin-top: 1rem;
   }
+  .get-data {
+    flex-wrap: wrap;
+  }
 }
 
 /* TABLETS */
@@ -161,6 +166,9 @@
   }
   .email-data {
     margin-top: 0.875rem;
+  }
+  .get-data {
+    flex-wrap: wrap;
   }
 }
 
